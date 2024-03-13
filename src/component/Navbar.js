@@ -1,0 +1,36 @@
+import './Navbar.css'
+import  {Button} from './Button.js';
+
+import logo from './../assets/large.png';
+
+function Navbar() {
+    return (
+        <>
+            <nav className="navbar">
+
+                <div className='vertical-center' style={{ gap: "4px" }}>
+                    {/* Add Brand Logo & Name*/}
+                    <img src={logo} alt="GeekFood Logo" className='logo-img' />
+                    <span className='GeekFoods'>GeekFoods</span>
+                </div>
+
+                <div className='nav-links vertical-center'>
+                    <div><span className='home-color'>Home</span></div>
+                    <div><span>Quote</span></div>
+                    <div><span>Restaurant</span></div>
+                    <div><span>Foods</span></div>
+                    <div><span>Contact</span></div>
+                </div>
+
+                <div className='vertical-center'>
+                    <Button borderKaRadius="8px" backgroundKaColor="#1C4ED8" fontColor="#FFFFFF">
+                        Get Started
+                    </Button>
+                </div>
+
+            </nav>
+        </>
+    )
+}
+
+export default Navbar;
