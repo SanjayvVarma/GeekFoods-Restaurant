@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GeekFoods-Restaurant/static/css/main.d7134c65.css",
+    "main.js": "/GeekFoods-Restaurant/static/js/main.dd9365ef.js",
+    "static/js/453.ed3810f9.chunk.js": "/GeekFoods-Restaurant/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/GeekFoods-Restaurant/index.html",
+    "main.d7134c65.css.map": "/GeekFoods-Restaurant/static/css/main.d7134c65.css.map",
+    "main.dd9365ef.js.map": "/GeekFoods-Restaurant/static/js/main.dd9365ef.js.map",
+    "453.ed3810f9.chunk.js.map": "/GeekFoods-Restaurant/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7134c65.css",
+    "static/js/main.dd9365ef.js"
+  ]
+}
